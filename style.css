@@ -38,6 +38,11 @@ html, body{
     font-weight: 500;
 }
 
+#website-header:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
 #bank{
     height: 45px;
     width: auto;
@@ -58,6 +63,11 @@ html, body{
     font-size: 20px;
     font-weight: 500;
 }   
+
+.pages-items:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
 
 .images{
     max-height: 24px;
@@ -114,10 +124,20 @@ input:focus{
     width: auto;  
 }
 
+#header-top-snorlax:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
 #bell-ring-outline{
     margin-top: 12px;
     max-height: 26px;
     width: auto;
+}
+
+#bell-ring-outline:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 #username{
@@ -128,9 +148,19 @@ input:focus{
     font-size: 18px;
 }
 
+#username:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
 #magnify{
     max-height: 25px;
     width: auto;
+}
+
+#magnify:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 /* ----end of header top---- */
@@ -172,6 +202,11 @@ input:focus{
     width: auto;
 }
 
+#welcome-snorlax:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
 .media-buttons{
     height: 40px;
     width: 100px;
@@ -181,6 +216,11 @@ input:focus{
     color: white;
     font-weight: 500;
     font-size: 14px;
+}
+
+.media-buttons:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 /* ----end of header bottom---- */
@@ -262,10 +302,21 @@ input:focus{
     color: black;
 }
 
+.project-header:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
 .project-buttons{
     display: flex;
     justify-content: right;
     gap: 20px;
+}
+
+.project-icons:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 /* ----end of project container---- */
@@ -313,6 +364,11 @@ input:focus{
     padding: 10px 0 3px 0;
 }
 
+.paragraph-header:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
 .paragraph-body{
     font-size: 13px;
     color: #7E7E7E;
@@ -347,6 +403,11 @@ input:focus{
     grid-template-areas:
     "picture user"
     "picture discription"
+}
+
+.object-container:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .trending-icon-container{
