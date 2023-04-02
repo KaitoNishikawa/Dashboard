@@ -1,1 +1,1 @@
-# https://KaitoNishikawa.github.io/library/
+# https://KaitoNishikawa.github.io/Dashboard/
